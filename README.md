@@ -29,7 +29,7 @@ To generate spanning trees and configure distributed systems, follow these steps
 
 ```python
 # Example usage for generating spanning trees
-python configure_distributed_system.py
+python Distributed_Systems.ipynb
 ```
 
 ### Visualization
@@ -54,10 +54,6 @@ Below are examples of the generated MST visualizations:
 ## Contributing
 
 Contributions to this project are welcome. You can contribute by reporting issues, suggesting enhancements, or submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
