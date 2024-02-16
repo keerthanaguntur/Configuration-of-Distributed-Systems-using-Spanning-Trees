@@ -6,7 +6,7 @@ import operator
 import igraph
 import mpl_toolkits.mplot3d
 import pandas as pd
-#We are going to randomnly generate the vertices, so we need a function to get the distances between each and all of them.
+#We are going to randomnly generate the vertices, so we need a function to get the distances between each and all of them
 def generate_edges_from_vertices(vertices):
     length = len(vertices)
     edges = list()
@@ -87,7 +87,7 @@ fig = plt.figure(figsize=(24, 8))
 ax1 = fig.add_subplot(121, projection='3d')
 ax1.scatter([v[0] for v in vertices.values()], [v[1] for v in vertices.values()], [v[2] for v in vertices.values()])
 
-# Get the minimum spanning tree edges.
+# Get the minimum spanning tree edges
 edge_list = kruskal(vertices, edges)
 
 ax2 = fig.add_subplot(122, projection='3d')
