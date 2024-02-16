@@ -6,7 +6,7 @@ import operator
 import igraph
 import mpl_toolkits.mplot3d
 import pandas as pd
-#We are going to randomnly generate the vertices, so we need a function to get the distances between each and all of them
+#We are going to randomnly generate the vertices, so we need a function to get the distances between each and all of them.
 def generate_edges_from_vertices(vertices):
     length = len(vertices)
     edges = list()
